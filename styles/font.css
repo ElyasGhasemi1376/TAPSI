@@ -1,0 +1,51 @@
+@font-face{
+    font-family: 'Vazirmatn-Regular';
+    src: url('../assets/fonts/fonts/webfonts/Vazirmatn-Regular.woff2') format('woff2');
+}
+html{
+    font-size: 62.5%;
+}
+body, button, input, textarea{
+    font-family: 'Vazirmatn-Regular';
+    line-height: 2.5rem;
+}
+h1, h2, h3{
+    margin-bottom: 1.5rem;
+}
+h1{
+    font-size: 2.5rem;
+}
+h2, h3{
+    font-size: 2.2rem;
+}
+p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--color-body);
+}
+h1, h2{
+    font-weight: 700;
+    color: var(--color-heading-primary);
+}
+h3{
+    font-weight: 500;
+    color: var(--color-heading-secondary);
+}
+@media screen and (min-width: 1024px){
+    h1, h2, h3{
+        margin-bottom: 2.5rem;
+    }
+    h1{
+        font-size: 5rem;
+    }
+    h2{
+        font-size: 3.5rem;
+    }
+    h3{
+        font-size: 2.8rem;
+    }
+    p{
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+}
